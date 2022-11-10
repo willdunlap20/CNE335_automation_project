@@ -1,6 +1,6 @@
-# This is the template code for the CNA337 Final Project
-# Zachary Rubin, zrubin@rtc.edu
-# CNA 337 Fall 2020
+# This is the template code for the CNE335 Final Project
+# Justin Ellis
+# CNE 335 Fall
 
 def print_program_info():
     # TODO - Change your name
