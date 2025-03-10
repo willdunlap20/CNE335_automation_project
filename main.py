@@ -1,6 +1,6 @@
 # Will Dunlap
 # CNE 335 Winter
-from server import Server
+from Server import Server
 
 def print_program_info():
     print("Server Automator v0.1 by Will Dunlap")

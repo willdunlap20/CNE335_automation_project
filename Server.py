@@ -1,4 +1,5 @@
 import os
+import platform
 
 class Server:
     """ Server class for representing and manipulating servers. """
@@ -7,7 +8,13 @@ class Server:
         self.server_ip = server_ip
 
     def ping(self):
-        response = os.system(f"sudo ping -c 4 {self.server_ip}")
+        system_name = platform.system().lower()
+
+        if system_name == 'windows':
+            response = os.system(f"ping -n 4 {self.server_ip}")
+        else:
+            response = os.system(f"ping -c 4 {self.server_ip}")
+
         if response == 0:
             return "Server is up!"
         else:
