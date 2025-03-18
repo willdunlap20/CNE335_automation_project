@@ -6,7 +6,7 @@
 from Server import Server
 
 def print_program_info():
-    print("Server Automator v0.1 by Will Dunlap")
+    print("Server Automator by Will Dunlap")
 
 # This is the entry point to our program
 if __name__ == '__main__':
