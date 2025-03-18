@@ -1,7 +1,7 @@
 # Will Dunlap
 # CNE 335 Winter
 # 3/17/2025
-# Source code from: ellisju37073 - CNE335_automation_project
+# Source code from: ellisju37073 - CNE335_automation_project 'https://github.com/ellisju37073/CNE335_automation_project'
 
 from Server import Server
 
