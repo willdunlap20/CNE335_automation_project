@@ -1,6 +1,8 @@
 # Will Dunlap
 # CNE 335 Winter
 # 3/17/2025
+# Source code from: ellisju37073 - CNE335_automation_project
+
 from Server import Server
 
 def print_program_info():
