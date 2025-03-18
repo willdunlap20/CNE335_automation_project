@@ -1,3 +1,6 @@
+# Will Dunlap
+# CNE 335 Winter
+# 3/17/2025
 import os
 import platform
 
